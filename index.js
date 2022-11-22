@@ -24,9 +24,10 @@ function getfromdb() {
       });
     });
     createitems(items);
-    // console.log(items);
+    // console.log("hello 1");
     items = [];
   });
+  // console.log("hello 2");
 }
 // updating the local data with database
 function createitems(arrItems) {
